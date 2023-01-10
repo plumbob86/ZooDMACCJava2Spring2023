@@ -71,5 +71,13 @@ public class Cat {
 		this.length = length;
 	}
 	
+	public String makeNoise() {
+		return "Meow";
+	}
+
+	@Override
+	public String toString() {
+		return "Cat [habitat=" + habitat + ", name=" + name + ", length=" + length + "]";
+	}
 	
 }
