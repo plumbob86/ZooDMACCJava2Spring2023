@@ -1,4 +1,4 @@
-import model.Example
+import model.Example;
 
 public class AnimalNoises {
 	
