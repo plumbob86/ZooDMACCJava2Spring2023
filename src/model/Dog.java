@@ -8,7 +8,7 @@ package model;
  *CIS175 - Spring 2023
  * Jan 9, 2023
  */
-public class Cat {
+public class Dog {
 	private String habitat;
 	private String name;
 	private int length;
@@ -18,11 +18,11 @@ public class Cat {
 	 * @param length
 	 */
 	
-	public Cat() {
+	public Dog() {
 		
 	}
 	
-	public Cat(String habitat, String name, int length) {
+	public Dog(String habitat, String name, int length) {
 		super();
 		this.habitat = habitat;
 		this.name = name;
@@ -72,12 +72,12 @@ public class Cat {
 	}
 	
 	public String makeNoise() {
-		return "Meow";
+		return "Bark!";
 	}
 
 	@Override
 	public String toString() {
-		return "Cat [habitat=" + habitat + ", name=" + name + ", length=" + length + "]";
+		return "Dog [habitat=" + habitat + ", name=" + name + ", length=" + length + "]";
 	}
 	
 }

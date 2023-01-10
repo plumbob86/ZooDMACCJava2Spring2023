@@ -1,4 +1,4 @@
-import model.Cat;
+import model.Dog;
 import model.Example;
 
 public class AnimalNoises {
@@ -9,8 +9,8 @@ public class AnimalNoises {
 	public static void main(String[] args) {
 		Example example = new Example();
 		System.out.println(example.makeNoise());
-		Cat Mittens = new Cat();
-		System.out.println(Mittens.makeNoise());
+		Dog Titan = new Dog();
+		System.out.println(Titan.makeNoise());
 	}
 
 }
