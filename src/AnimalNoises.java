@@ -1,3 +1,6 @@
+//added semicolon to the end of import (Andrew Steele 01/10/2023)
+import model.Example;
+import model.Platypus;
 
 import model.Dog;
 import model.Example
@@ -11,6 +14,9 @@ public class AnimalNoises {
 	public static void main(String[] args) {
 		Example example = new Example();
 		System.out.println(example.makeNoise());
+		//created a new instance of the object and output the sound it makes
+		Platypus frank = new Platypus();
+		System.out.println(frank.makeNoise());
 		Dog Titan = new Dog();
 		System.out.println(Titan.makeNoise());
 		
