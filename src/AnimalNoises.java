@@ -1,3 +1,6 @@
+
+import model.Dog;
+import model.Example
 import model.Example;
 import model.Cat;
 public class AnimalNoises {
@@ -8,6 +11,8 @@ public class AnimalNoises {
 	public static void main(String[] args) {
 		Example example = new Example();
 		System.out.println(example.makeNoise());
+		Dog Titan = new Dog();
+		System.out.println(Titan.makeNoise());
 		
 		Cat jordan = new Cat("Jordan",6,true);
 		System.out.println(jordan.getName() + " Age: " + jordan.getAge() + " Is Loved: " + jordan.getIsLoved());
