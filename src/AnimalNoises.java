@@ -21,6 +21,8 @@ public class AnimalNoises {
 		Siamang monk = new Siamang();
 		System.out.println(monk.makeNoise());
 		
-		//TESTINGGG
+		//New Animal - Turtle from Nemo movie
+		Turtle Crush = new Turtle("East Austrailian Current (EAC)", "Crush", 150);
+		System.out.println(Crush.speak());
 	}
 }
