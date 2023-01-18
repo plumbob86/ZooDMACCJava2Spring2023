@@ -3,9 +3,9 @@ import model.Example;
 import model.Platypus;
 
 import model.Dog;
-import model.Example
 import model.Example;
 import model.Cat;
+import model.Cow;
 public class AnimalNoises {
 	
 	// add your animal class to the model package
@@ -23,6 +23,9 @@ public class AnimalNoises {
 		Cat jordan = new Cat("Jordan",6,true);
 		System.out.println(jordan.getName() + " Age: " + jordan.getAge() + " Is Loved: " + jordan.getIsLoved());
 		System.out.println(jordan.getName() + ": " + jordan.speak());
+		//created a new instance of a Cow and output the sound it makes (Jacoby King 01/17/23)
+		Cow susan = new Cow("Farm", "Susan", 10);
+		System.out.println(susan.getName() + ": " + susan.makeNoise());
 	}
 
 }
