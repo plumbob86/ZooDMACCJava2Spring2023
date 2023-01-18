@@ -1,9 +1,9 @@
-//added semicolon to the end of import (Andrew Steele 01/10/2023)
+// added semicolon to the end of import (Andrew Steele 01/10/2023)
 import model.Example;
 import model.Platypus;
 
 import model.Dog;
-import model.Example
+import model.Example;
 import model.Example;
 import model.Cat;
 public class AnimalNoises {
