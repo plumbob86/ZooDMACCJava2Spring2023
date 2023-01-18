@@ -20,5 +20,8 @@ public class AnimalNoises {
 		
 		Siamang monk = new Siamang();
 		System.out.println(monk.makeNoise());
+		
+		Shark Stewy = new Shark();
+		System.out.println(Stewy.makeNoise());
 	}
 }
