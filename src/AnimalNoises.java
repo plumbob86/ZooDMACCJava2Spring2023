@@ -8,6 +8,9 @@ public class AnimalNoises {
 	public static void main(String[] args) {
 		Example example = new Example();
 		System.out.println(example.makeNoise());
+		// created a goose 
+		Goose garry = new Goose();
+		System.out.println(garry.speak());
 		//created a new instance of the object and output the sound it makes
 		Platypus frank = new Platypus();
 		System.out.println(frank.makeNoise());
