@@ -1,5 +1,6 @@
 //added semicolon to the end of import (Andrew Steele 01/10/2023)
 import model.Example;
+import model.Horse;
 import model.Platypus;
 
 import model.Dog;
@@ -16,12 +17,17 @@ public class AnimalNoises {
 		//created a new instance of the object and output the sound it makes
 		Platypus frank = new Platypus();
 		System.out.println(frank.makeNoise());
+		
 		Dog Titan = new Dog();
 		System.out.println(Titan.makeNoise());
 		
 		Cat jordan = new Cat("Jordan",6,true);
 		System.out.println(jordan.getName() + " Age: " + jordan.getAge() + " Is Loved: " + jordan.getIsLoved());
 		System.out.println(jordan.getName() + ": " + jordan.speak());
+		
+		
+		Horse steph = new Horse("Emma", 2, true);
+		System.out.println(steph.makeNoise());
 	}
 
 }
