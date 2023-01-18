@@ -11,6 +11,7 @@ public class AnimalNoises {
 		//created a new instance of the object and output the sound it makes
 		Platypus frank = new Platypus();
 		System.out.println(frank.makeNoise());
+		
 		Dog Titan = new Dog();
 		System.out.println(Titan.makeNoise());
 		
@@ -20,5 +21,8 @@ public class AnimalNoises {
 		
 		Siamang monk = new Siamang();
 		System.out.println(monk.makeNoise());
+		
+		Gorilla nash = new Gorilla();
+		System.out.println(nash.makeNoise());
 	}
 }
