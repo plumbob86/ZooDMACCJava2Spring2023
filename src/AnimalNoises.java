@@ -3,7 +3,6 @@ import model.Example;
 import model.Platypus;
 
 import model.Dog;
-import model.Example
 import model.Example;
 import model.Cat;
 public class AnimalNoises {
