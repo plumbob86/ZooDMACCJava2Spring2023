@@ -8,6 +8,8 @@ import model.PolarBear;
 import model.Platypus;
 import model.Tiger;
 import model.Dog;
+import model.Monkey;
+import model.Example;
 import model.Example;
 import model.Example;
 import model.Squirrel;
@@ -41,7 +43,12 @@ public class AnimalNoises {
 		Bird SomeBirdName = new Bird();
 		System.out.println(SomeBirdName.makeNoise());
 
+	
+		Dog Jerry = new Dog();
+		System.out.println(Jerry.makeNoise());
 		
+		Monkey Jeremmy = new Monkey();
+		System.out.println(Jeremmy.makeNoise());
 
 		Cat jordan = new Cat("Jordan",6,true);
 		System.out.println(jordan.getName() + " Age: " + jordan.getAge() + " Is Loved: " + jordan.getIsLoved());
