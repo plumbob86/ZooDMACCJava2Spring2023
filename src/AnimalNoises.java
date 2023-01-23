@@ -35,6 +35,12 @@ public class AnimalNoises {
 		System.out.println(jordan.getName() + ": " + jordan.speak());
 
 		
+		Pig Wilbur = new Pig();
+		System.out.println(Wilbur.makeNoise());
+		
+
+
+		
 		Penguin bob = new Penguin();
 		System.out.println(bob.speak());
 
