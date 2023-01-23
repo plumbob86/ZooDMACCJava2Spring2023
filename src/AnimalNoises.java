@@ -6,9 +6,11 @@ import model.Wolf;
 import model.Dog;
 //import model.Example
 import model.Example;
-import model.Cat;
 import model.Cow;
 
+import model.Dog;
+import model.Cat;
+import model.Fox;
 public class AnimalNoises {
 
 	// add your animal class to the model package
@@ -28,6 +30,7 @@ public class AnimalNoises {
 		System.out.println(jordan.getName() + ": " + jordan.speak());
 
 
+
 		// use non-default constructor Cow(String name, String type, int age, boolean breedStock)
 		// to create an instance/object of Cow class
 		Cow betsy = new Cow("Betsy", "dairy", 3, true);
@@ -38,6 +41,11 @@ public class AnimalNoises {
 		//Abby Boggs 1.13.23 - added wolf instance and noise
 		Wolf redd = new Wolf("Redd", "forest", "red");
 		System.out.println(redd.makeNoise());
+
+
+
+		Fox fantasticMr = new Fox();
+		System.out.println("Fastastic Mr Fox says: " + fantasticMr.makeNoise());
 
 	}
 
