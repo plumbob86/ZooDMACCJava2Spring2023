@@ -4,15 +4,13 @@
 
 import model.Example;
 import model.Platypus;
-import model.Wolf;
-import model.Dog;
-import model.Example;
-
-import model.Example;
-import model.Cow;
-
 import model.Dog;
 import model.Cat;
+import model.Penguin;
+import model.Wolf;
+import model.Example;
+
+import model.Cow;
 
 import model.Pig;
 
@@ -35,6 +33,10 @@ public class AnimalNoises {
 		Cat jordan = new Cat("Jordan",6,true);
 		System.out.println(jordan.getName() + " Age: " + jordan.getAge() + " Is Loved: " + jordan.getIsLoved());
 		System.out.println(jordan.getName() + ": " + jordan.speak());
+
+		
+		Penguin bob = new Penguin();
+		System.out.println(bob.speak());
 
 		
 		Pig Pinky = new Pig();
