@@ -10,6 +10,7 @@ import model.Tiger;
 import model.Dog;
 import model.Example;
 import model.Example;
+import model.Squirrel;
 import model.Bird;
 import model.Cat;
 import model.Penguin;
@@ -46,6 +47,8 @@ public class AnimalNoises {
 		System.out.println(jordan.getName() + " Age: " + jordan.getAge() + " Is Loved: " + jordan.getIsLoved());
 		System.out.println(jordan.getName() + ": " + jordan.speak());
 		
+		Squirrel squirrel = new Squirrel();
+		System.out.println(squirrel.makeNoise());
 		Tiger Machli = new Tiger("Machli",250,5);
 		System.out.println(Machli.getName() + ": " + Machli.speak());
 
