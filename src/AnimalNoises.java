@@ -1,11 +1,14 @@
 //added semicolon to the end of import (Andrew Steele 01/10/2023)
+
 import model.Example;
 import model.Platypus;
 import model.Wolf;
 import model.Dog;
+import model.Elephant;
 import model.Cat;
+import model.*;
 public class AnimalNoises {
-	
+
 	// add your animal class to the model package
 	// only push this file and the animal class you created
 
@@ -17,14 +20,22 @@ public class AnimalNoises {
 		System.out.println(frank.makeNoise());
 		Dog Titan = new Dog();
 		System.out.println(Titan.makeNoise());
-		
+
 		Cat jordan = new Cat("Jordan",6,true);
 		System.out.println(jordan.getName() + " Age: " + jordan.getAge() + " Is Loved: " + jordan.getIsLoved());
 		System.out.println(jordan.getName() + ": " + jordan.speak());
-		
+
 		//Abby Boggs 1.13.23 - added wolf instance and noise
 		Wolf redd = new Wolf("Redd", "forest", "red");
 		System.out.println(redd.makeNoise());
 	}
 
+		//Rosie the Elephant
+		Elephant rosie = new Elephant();
+		System.out.println("The elephant says \"" + rosie.speak());
+
+		Siamang monk = new Siamang();
+		System.out.println(monk.makeNoise());
+
+	}
 }
