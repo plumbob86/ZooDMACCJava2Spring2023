@@ -31,6 +31,14 @@ public class AnimalNoises {
 		System.out.println(jordan.getName() + " Age: " + jordan.getAge() + " Is Loved: " + jordan.getIsLoved());
 		System.out.println(jordan.getName() + ": " + jordan.speak());
 
+		
+		Wolf Seth = new Wolf("Seth", "Blue", 34);
+		System.out.println("Name: " + Seth.getName() + "; Eye Color: " + Seth.getEyeColor() + "; Size/Height(in inches): " + Seth.getSize());
+		System.out.println(Seth.toString());
+		System.out.println(Seth.speak());
+	}
+
+
 		PolarBear polly = new PolarBear("Artic", "Polly", 10);
 		System.out.println(polly.toString());
 		System.out.println(polly.speak());
@@ -78,4 +86,5 @@ public class AnimalNoises {
 		System.out.println(monk.makeNoise());
 
 	}
+
 }
