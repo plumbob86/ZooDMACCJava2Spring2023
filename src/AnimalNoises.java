@@ -3,9 +3,11 @@
 //had to add semicolon to the end of import model.Example for program to run (Riley Ahlrichs 1/14/2023)
 
 import model.Example;
+import model.Lion;
 import model.PolarBear;
 import model.Platypus;
 import model.Dog;
+import model.Example;
 import model.Bird;
 import model.Cat;
 import model.Penguin;
@@ -30,8 +32,12 @@ public class AnimalNoises {
 		Dog Titan = new Dog();
 		System.out.println(Titan.makeNoise());
 
+		Lion chad = new Lion();
+		System.out.println(chad.makeNoise());
+
 		Bird SomeBirdName = new Bird();
 		System.out.println(SomeBirdName.makeNoise());
+
 		
 
 		Cat jordan = new Cat("Jordan",6,true);
