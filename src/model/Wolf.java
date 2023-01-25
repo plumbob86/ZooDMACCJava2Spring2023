@@ -12,10 +12,7 @@ public class Wolf {
 	private String eyeColor; //type String represents the Wolf's eye color
 	private int size; //type Integer represents the Wolf's body size or height
 
-	//public default no-arg constructor
-	public Wolf() {
-		
-	}
+	
 	
 	//public non-default constructor w/ 3 parameters
 	public Wolf(String wolfName, String wolfEyeColor, int wolfSize) {
@@ -25,20 +22,8 @@ public class Wolf {
 		this.size = wolfSize;
 	}
 
-	/**
-	 * @return the name
-	 */
-	public String getName() {
-		return name;
-	}
-
-	/**
-	 * @param name the name to set
-	 */
-	public void setName(String name) {
-		this.name = name;
-	}
-
+	
+	
 	/**
 	 * @return the eyeColor
 	 */
@@ -79,7 +64,7 @@ public class Wolf {
 
 
 	//declare variables
-	private String name;
+
 	private String habitat;
 	private String color;
 	
@@ -140,11 +125,6 @@ public class Wolf {
 		this.color = color;
 	}
 
-	//to string
-	@Override
-	public String toString() {
-		return "Wolf [name=" + name + ", habitat=" + habitat + ", color=" + color + "]";
-	}
 
 	//make noise method
 	public String makeNoise() {

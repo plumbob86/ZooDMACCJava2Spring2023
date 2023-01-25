@@ -5,9 +5,12 @@
 import model.Example;
 import model.Lion;
 import model.PolarBear;
+import model.Siamang;
+import model.Sloth;
 import model.Platypus;
 import model.Tiger;
 import model.Dog;
+import model.Elephant;
 import model.Monkey;
 import model.Example;
 import model.Example;
@@ -65,7 +68,7 @@ public class AnimalNoises {
 		System.out.println("Name: " + Seth.getName() + "; Eye Color: " + Seth.getEyeColor() + "; Size/Height(in inches): " + Seth.getSize());
 		System.out.println(Seth.toString());
 		System.out.println(Seth.speak());
-	}
+
 
 
 		PolarBear polly = new PolarBear("Artic", "Polly", 10);
@@ -87,8 +90,6 @@ public class AnimalNoises {
 		System.out.println(Pinky.makeNoise());
 
 
-
-
 		// use non-default constructor Cow(String name, String type, int age, boolean breedStock)
 		// to create an instance/object of Cow class
 		Cow betsy = new Cow("Betsy", "dairy", 3, true);
@@ -105,7 +106,7 @@ public class AnimalNoises {
 		Fox fantasticMr = new Fox();
 		System.out.println("Fastastic Mr Fox says: " + fantasticMr.makeNoise());
 
-	}
+	
 
 		//Rosie the Elephant
 		Elephant rosie = new Elephant();
@@ -113,6 +114,13 @@ public class AnimalNoises {
 
 		Siamang monk = new Siamang();
 		System.out.println(monk.makeNoise());
+		
+		//added by Alex Cox - Spring 23
+		System.out.println(); //aesthetic spacers
+		Sloth Sid = new Sloth("Sid", 5 ,  3, "Maned Sloth");
+		System.out.println(Sid.getName() + " is a " + Sid.getAge() +  " year old " + Sid.getToes() + " toed " + Sid.getSpecies());
+		System.out.println(Sid.getName() + " makes an " + Sid.speak() + " sound.");
+		System.out.println(); //aesthetic spacers
 
 	}
 
