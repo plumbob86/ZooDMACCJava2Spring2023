@@ -20,6 +20,7 @@ import model.Wolf;
 import model.Cow;
 import model.Pig;
 import model.Fox;
+import model.Rat;
 
 public class AnimalNoises {
 
@@ -86,13 +87,17 @@ public class AnimalNoises {
 		Pig Pinky = new Pig();
 		System.out.println(Pinky.makeNoise());
 
+		Rat Shedder= new Rat();
+		System.out.println(Shredder.speak());
+
+
 
 
 
 		// use non-default constructor Cow(String name, String type, int age, boolean breedStock)
 		// to create an instance/object of Cow class
 		Cow betsy = new Cow("Betsy", "dairy", 3, true);
-		// call speak() method from Cow class to output sound it makes
+		//call speak() method from Cow class to output sound it makes
 		System.out.println(betsy.speak());
 
 
@@ -105,7 +110,7 @@ public class AnimalNoises {
 		Fox fantasticMr = new Fox();
 		System.out.println("Fastastic Mr Fox says: " + fantasticMr.makeNoise());
 
-	}
+	//}
 
 		//Rosie the Elephant
 		Elephant rosie = new Elephant();
@@ -116,4 +121,4 @@ public class AnimalNoises {
 
 	}
 
-}
+//}
